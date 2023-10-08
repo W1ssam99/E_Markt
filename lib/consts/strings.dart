@@ -41,3 +41,10 @@ const womenClothes = "Women Clothing",
     jewelery = "Jewelery",
     cellphone = "CellPhone & Tap",
     furniture = "Furniture";
+
+const video = "Video",
+    reviews = "Reviews",
+    sallerpolicy = "Saller Policy",
+    returnpolicy = "Return Policy",
+    supportpolicy = "Support Policy",
+    productsSummylike="Products you may like";
