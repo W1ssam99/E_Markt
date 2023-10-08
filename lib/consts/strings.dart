@@ -18,6 +18,9 @@ const privecyAndPolicy = "Privacy and Policy";
 const termsAndCondation = "Terms and  Conditions";
 const alreadyHaveAcount = "Alredy have an account?";
 const serchingAnyThinf = "Search anything...";
+
+//home strings
+
 const categories = "Categories",
     tody = "Today's Deal",
     flashseal = "Flash sale",
@@ -32,6 +35,8 @@ const categories = "Categories",
     featuredProducr = "Featured Product",
     featuredCategory = "Featured Category";
 
+//category strings
+
 const womenClothes = "Women Clothing",
     menClothes = "Men Clothing & fashion",
     compAcces = "Computer & Accesories",
@@ -42,9 +47,15 @@ const womenClothes = "Women Clothing",
     cellphone = "CellPhone & Tap",
     furniture = "Furniture";
 
+//item detail strings
+
 const video = "Video",
     reviews = "Reviews",
     sallerpolicy = "Saller Policy",
     returnpolicy = "Return Policy",
     supportpolicy = "Support Policy",
-    productsSummylike="Products you may like";
+    productsSummylike = "Products you may like";
+
+//profile strings
+
+const wishlist = "My Wishlist", order = "My Order", messege = "Messege";

@@ -1,3 +1,4 @@
+import 'package:e_app/consts/consts.dart';
 import 'package:flutter/material.dart';
 
 class Cart_screen extends StatefulWidget {
@@ -10,6 +11,8 @@ class Cart_screen extends StatefulWidget {
 class _HomeScreebState extends State<Cart_screen> {
   @override
   Widget build(BuildContext context) {
-    return Container(color:const Color.fromARGB(255, 243, 33, 215),);
+    return Container(color: Colors.white,
+    child: "Cart is Empty!".text.color(darkFontGrey).makeCentered(),
+    );
   }
 }
