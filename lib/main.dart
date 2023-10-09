@@ -12,16 +12,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  GetMaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-     title: appname,
-     theme: ThemeData(
-      scaffoldBackgroundColor: Colors.transparent,
-      appBarTheme: AppBarTheme(
-        backgroundColor: Colors.transparent
-      ),fontFamily: regular
-     ),
-     home: SplashScreen(),
+      title: appname,
+      theme: ThemeData(
+          scaffoldBackgroundColor: Colors.transparent,
+          appBarTheme: AppBarTheme(backgroundColor: Colors.transparent),
+          fontFamily: regular),
+      home: SplashScreen(),
     );
   }
 }

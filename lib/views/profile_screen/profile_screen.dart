@@ -69,6 +69,7 @@ class _HomeScreebState extends State<Profile_screen> {
        ),
 45.heightBox,
 ListView.separated(
+  shrinkWrap: true,
   itemCount: profilebuttomList.length,
   separatorBuilder: (BuildContext context, int index) {
     return const Divider( color: darkFontGrey,) ;
@@ -79,7 +80,7 @@ ListView.separated(
       title: profilebuttomList[index].text.fontFamily(bold).color(darkFontGrey).make(),
     ) ;
   },
-).box.rounded.padding(EdgeInsets.symmetric(horizontal: 12)).white.shadow3xl.make().expand( )
+).box.rounded.padding(EdgeInsets.symmetric(horizontal: 12,vertical: 10)).white.shadowSm.make().expand( )
 
           ],
         ),
