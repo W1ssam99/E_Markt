@@ -59,29 +59,59 @@ class _HomeScreebState extends State<Profile_screen> {
               ],
             ),
             20.heightBox,
-       Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-         children: [
-           detailCard(count: "00",title: "In your cart",width: context.screenWidth/3.5,),
-           detailCard(count: "00",title: "In your cart",width: context.screenWidth/3.5,),
-           detailCard(count: "00",title: "In your cart",width: context.screenWidth/3.5,),
-         ],
-       ),
-45.heightBox,
-ListView.separated(
-  shrinkWrap: true,
-  itemCount: profilebuttomList.length,
-  separatorBuilder: (BuildContext context, int index) {
-    return const Divider( color: darkFontGrey,) ;
-  },
-  itemBuilder: (BuildContext context, int index) {
-    return ListTile(
-      leading: Image.asset(profilebuttomicon[index],width: 20,).box.size(20,20).rounded.color(Colors.white).make(),
-      title: profilebuttomList[index].text.fontFamily(bold).color(darkFontGrey).make(),
-    ) ;
-  },
-).box.rounded.padding(EdgeInsets.symmetric(horizontal: 12,vertical: 10)).white.shadowSm.make().expand( )
-
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                detailCard(
+                  count: "00",
+                  title: "In your cart",
+                  width: context.screenWidth / 3.5,
+                ),
+                detailCard(
+                  count: "00",
+                  title: "In your cart",
+                  width: context.screenWidth / 3.5,
+                ),
+                detailCard(
+                  count: "00",
+                  title: "In your cart",
+                  width: context.screenWidth / 3.5,
+                ),
+              ],
+            ),
+            5.heightBox,
+            ListView.separated(
+              shrinkWrap: true,
+              itemCount: profilebuttomList.length,
+              separatorBuilder: (BuildContext context, int index) {
+                return const Divider(
+                  color: darkFontGrey,
+                );
+              },
+              itemBuilder: (BuildContext context, int index) {
+                return ListTile(
+                  leading: Image.asset(
+                    profilebuttomicon[index],
+                    width: 20,
+                  ).box.size(20, 20).rounded.color(Colors.white).make(),
+                  title: profilebuttomList[index]
+                      .text
+                      .fontFamily(bold)
+                      .color(darkFontGrey)
+                      .make(),
+                );
+              },
+            )
+                .box
+                .rounded
+                .padding(EdgeInsets.symmetric(horizontal: 12, vertical: 10))
+                .margin(EdgeInsets.all(7))
+                .white
+                .shadowSm
+                .make()
+                .box
+                .color(redColor)
+                .make()
           ],
         ),
       )),

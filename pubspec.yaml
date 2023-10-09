@@ -11,6 +11,10 @@ dependencies:
     sdk: flutter
   get: ^4.6.6
   velocity_x: ^4.1.1
+  firebase_core: ^2.17.0
+  firebase_auth: ^4.10.1
+  cloud_firestore: ^4.9.3
+
 
 dev_dependencies:
   flutter_test:
