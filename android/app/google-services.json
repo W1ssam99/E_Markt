@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921074735105",
+    "project_id": "e-market-9dc11",
+    "storage_bucket": "e-market-9dc11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921074735105:android:b0c7b80f81382da0a18800",
+        "android_client_info": {
+          "package_name": "com.example.e_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcxMjjWDDSLv-QwgGYKevjCeJAI_paC2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

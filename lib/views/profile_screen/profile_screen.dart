@@ -81,6 +81,7 @@ class _HomeScreebState extends State<Profile_screen> {
             ),
             5.heightBox,
             ListView.separated(
+              physics: NeverScrollableScrollPhysics(),
               shrinkWrap: true,
               itemCount: profilebuttomList.length,
               separatorBuilder: (BuildContext context, int index) {
@@ -90,6 +91,7 @@ class _HomeScreebState extends State<Profile_screen> {
               },
               itemBuilder: (BuildContext context, int index) {
                 return ListTile(
+  
                   leading: Image.asset(
                     profilebuttomicon[index],
                     width: 20,
